@@ -1,4 +1,4 @@
-/**
+/**section-title
 * Template Name: iPortfolio - v3.9.1
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
 * Author: BootstrapMade.com
@@ -330,6 +330,35 @@ section {
 }
 
 .section-title p {
+  margin-bottom: 0;
+}
+
+.section-title-2{
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.section-title-2 h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+
+.section-title-2 h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: rgb(127, 88, 199);
+  bottom: 0;
+  left: 0;
+}
+
+.section-title-2 p {
   margin-bottom: 0;
 }
 
